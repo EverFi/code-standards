@@ -7,7 +7,10 @@
     "type": "git",
     "url": "git+https://github.com/EverFi/code-standards.git"
   },
-  "author": "Chris Barnes",
+  "contributors": [
+    { "name": "Chris Barnes" },
+    { "name": "Anushree Patil" }
+  ],
   "bugs": {
     "url": "https://github.com/EverFi/code-standards/issues"
   },
