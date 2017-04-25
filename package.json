@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-everfi-code-standards",
+  "version": "0.0.1",
+  "description": "EverFi Coding Standards",
+  "main": "eslint/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EverFi/code-standards.git"
+  },
+  "author": "Chris Barnes",
+  "bugs": {
+    "url": "https://github.com/EverFi/code-standards/issues"
+  },
+  "homepage": "https://github.com/EverFi/code-standards#readme",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint-cli": "^1.1.0"
+  }
+}
