@@ -14,6 +14,9 @@
   "homepage": "https://github.com/EverFi/code-standards#readme",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint-cli": "^1.1.0"
+    "eslint": "^3.19.0",
+    "eslint-cli": "^1.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.10.3"
   }
 }
