@@ -64,7 +64,7 @@ module.exports = {
     "class-methods-use-this": "off",
     "complexity": [
       "error",
-      6
+      10
     ],
     "consistent-return": "off",
     "curly": "off",
