@@ -25,7 +25,7 @@ module.exports = {
   "rules": {
     "no-await-in-loop": "off",
     "no-cond-assign": "error",
-    "no-console": "off",
+    "no-console": ["error", { allow: ["debug"] }],
     "no-constant-condition": "error",
     "no-control-regex": "error",
     "no-debugger": "error",
