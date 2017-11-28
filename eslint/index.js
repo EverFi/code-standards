@@ -331,7 +331,7 @@ module.exports = {
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/no-danger": 0,
-    "react/no-did-mount-set-state": 1,
+    "react/no-did-mount-set-state": 0,
     "react/no-did-update-set-state": 0,
     "react/no-multi-comp": 2,
     "react/no-unknown-property": 2,
