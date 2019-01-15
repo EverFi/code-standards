@@ -25,7 +25,7 @@ module.exports = {
   "rules": {
     "no-await-in-loop": "off",
     "no-cond-assign": "error",
-    "no-console": ["error", { allow: ["debug"] }],
+    "no-console": "off",
     "no-constant-condition": "error",
     "no-control-regex": "error",
     "no-debugger": "error",
@@ -70,7 +70,12 @@ module.exports = {
     "curly": "off",
     "default-case": "off",
     "dot-location": "off",
-    "dot-notation": "off",
+    "dot-notation": [
+      "error",
+      {
+        "allowKeywords": true
+      }
+    ],
     "eqeqeq": "error",
     "guard-for-in": "error",
     "no-alert": "error",
@@ -132,7 +137,7 @@ module.exports = {
     "no-warning-comments": "off",
     "no-with": "error",
     "prefer-promise-reject-errors": "off",
-    "radix": "error",
+    "radix": "off",
     "require-await": "off",
     "vars-on-top": "off",
     "wrap-iife": "error",
@@ -193,6 +198,7 @@ module.exports = {
           "$",
           "e",
           "i",
+          "j",
           "k",
           "v",
           "f",
@@ -251,7 +257,10 @@ module.exports = {
     "no-underscore-dangle": "off",
     "no-unneeded-ternary": "off",
     "object-curly-newline": "off",
-    "object-curly-spacing": "off",
+    "object-curly-spacing": [
+      2,
+      "always"
+    ],
     "object-property-newline": "off",
     "one-var-declaration-per-line": "off",
     "one-var": "off",
@@ -267,7 +276,10 @@ module.exports = {
     "sort-vars": "off",
     "space-before-blocks": "off",
     "space-before-function-paren": "off",
-    "space-in-parens": "off",
+    "space-in-parens": [
+      2,
+      "never"
+    ],
     "space-infix-ops": "off",
     "space-unary-ops": "off",
     "spaced-comment": "off",
